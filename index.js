@@ -20,13 +20,13 @@ function division(a, b) {
 
 
 // calculate function
-function calculator(operation, firstDigit , secondDigit ) {
-    
+function calculator(operation, firstDigit, secondDigit) {
+
     // convert uppercase to lowercase
     const operationType = operation.toLowerCase();
-    
+
     if (operationType === "add" || operationType === "subtract" || operationType === "multiply" || operationType === "divide") {
-        // console.log(operationType, firstDigit, secondDigit)
+
         // for addition
         if (operationType === "add") { return addition(firstDigit, secondDigit) }
         // for subtraction
@@ -41,11 +41,14 @@ function calculator(operation, firstDigit , secondDigit ) {
                 return "Error: Division by zero is not allowed"
             }
         }
+
     } else {
         return "Error: Invalid operation"
     }
 }
 
+
+// OutPut
 
 console.log(calculator("add", 10, 5));
 
