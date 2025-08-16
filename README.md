@@ -1,3 +1,3 @@
 # Basic Calculator
 
-## Features : 
+## Features: 
